@@ -2,8 +2,31 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" type="text/css" href="index.css" />
+    <script type="text/javascript" src="index.js"></script>
   </head>
   <body>
+    <div id="img-wrapper">
+      <img src="90s-now.jpg" width="320px" />
+    </div>
+    <marquee>
+      <h2>TEST YOUR IFRAME</h2>
+    </marquee>
+    <div id="url-select-container">
+      <input
+        id="url-field"
+        type="text"
+        name="url-selector-text"
+        value="https://parramatta.lizard.net/floodsmart/full/5?iframe=true"
+      />
+    </div>
+    <div id="url-submit-container">
+      <input
+        type="button"
+        name="url-selector-btn"
+        value="Go!"
+        onclick="javascript:changeIframeSrc();"
+      />
+    </div>
     <div id="parent">
       <iframe
         id="child"

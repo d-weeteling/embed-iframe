@@ -1,6 +1,64 @@
+body {
+  background-color: #000;
+}
+
+h2 {
+  color: #E64040;
+}
+
+div#img-wrapper {
+  margin-top: 20px;
+  margin-left: calc(50% - 160px);
+}
+
+div#url-select-container {
+  position: relative;
+  margin-left: calc(50% - 340px);
+  margin-bottom: 20px;
+  width: 680px;
+
+  background-color: #E64040;
+}
+input[type="text"] {
+  /*position: relative;*/
+  float: left;
+  width: calc(100% - 7.5px);
+  padding-left: 5px;
+  font-size: 20px;
+}
+
+
+div#url-submit-container {
+  position: relative;
+  top: 20px;
+  margin-left: calc(50% - 340px);
+  width: 680px;
+
+  background-color: #000; /*#E64040;*/
+}
+input[type="button"] {
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  width: 160px;
+  height: 100%;
+  margin-left: calc(50% - 80px);
+}
+
 div#parent {
-  background-color: #caa;
+  position: relative;
+  top: 40px;
+  margin-left: calc(50% - 340px);
+  background-color: #000; /*#E64040;*/
+  width: 680px;
+  height: 480px;
 }
 
 iframe#child {
+/*  position: relative;
+  top: -20px;*/
+  background-color: #000;
+  margin-left: 20px;
+  margin-top: 0;
+  border: 0px;
 }
